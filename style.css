@@ -1,0 +1,39 @@
+html,
+body{
+    margin: 0;
+    font-family: 'popins',sans-serif;
+    background-color: #f5e8ba;
+}
+#wrapper h2{
+    display: flex;
+    justify-content: center;
+}
+h2{
+    color: #f5e8ba;
+    letter-spacing: 1px;
+}
+input{
+    border-radius: 5px;
+    border: 2px solid rgb(19, 18, 18);
+    margin-top: 30px;
+    height: 2.5em;
+    width: 250px;
+    padding-left: 10px;
+}
+input:active{
+    border: none;
+}
+#wrapper{
+    height: 500px;
+    width: 400px;
+    margin: 200px auto;
+    background-color: rgb(173, 150, 150);
+    border-radius: 10px;
+    padding: 30px;
+}
+button{
+    padding: 9px;
+    width: 30%;
+    background-color: rgb(189, 178, 178);
+    color: white;
+}
